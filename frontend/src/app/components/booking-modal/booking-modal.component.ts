@@ -27,7 +27,7 @@ export interface BookingDetails {
             </svg>
           </div>
           <h2 class="text-2xl font-bold text-gray-900">Booking Summary</h2>
-          <p class="text-gray-800/80 text-sm font-medium">Thank you for choosing KeyIn Travel</p>
+          <p class="text-gray-800/80 text-sm font-medium">Thank you for choosing Bermalam Travel</p>
         </div>
 
         <!-- Bill Details -->

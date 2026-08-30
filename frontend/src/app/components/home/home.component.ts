@@ -22,9 +22,9 @@ import { HttpClient } from '@angular/common/http';
         <div class="relative z-10 h-full flex flex-col items-center justify-center px-5 py-8">
           <div class="w-full max-w-4xl animate-fade-in-up">
             <div class="flex justify-center mb-4">
-              <img src="assets/KeyInLogo.png" alt="KeyIn Logo" class="h-32 sm:h-40 lg:h-48 w-auto">
+              <img src="assets/LogoBermalam.png" alt="Bermalam Logo" class="h-16 sm:h-20 lg:h-24 w-auto">
             </div>
-            <p class="text-white/90 text-center text-lg mb-10 drop-shadow">Temukan Keindahan Dunia bersama Key-In.</p>
+            <p class="text-white/90 text-center text-lg mb-10 drop-shadow">Temukan Keindahan Dunia bersama Bermalam.</p>
             <!-- Search Bar -->
             <div class="bg-white dark:bg-[#252526] rounded-2xl shadow-2xl p-6">
               <div class="flex flex-col md:flex-row gap-5">
@@ -98,22 +98,22 @@ import { HttpClient } from '@angular/common/http';
            [class.pointer-events-none]="!showAuthPopup"
            class="fixed inset-0 z-[99999] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm transition-all duration-300 ease-in-out"
            (click)="closeAuthPopup()">
-        <!-- Card Container - Pristine White with Subtle Shadow & Border -->
+        <!-- Card Container - Dark Theme -->
         <div [class.scale-100]="showAuthPopup"
              [class.scale-95]="!showAuthPopup"
              [class.opacity-100]="showAuthPopup"
              [class.opacity-0]="!showAuthPopup"
-             class="relative max-w-sm w-full overflow-hidden rounded-3xl p-8 text-center bg-white dark:bg-[#252526] shadow-[0_25px_60px_-15px_rgba(0,0,0,0.3)] border border-gray-100 dark:border-gray-800 transition-all duration-300 ease-in-out cursor-default"
+             class="relative max-w-sm w-full overflow-hidden rounded-3xl p-8 text-center bg-gray-900 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.5)] border border-gray-800 transition-all duration-300 ease-in-out cursor-default"
              (click)="$event.stopPropagation()">
           
           <!-- Subtle Glossy/Metallic Sheen Overlay -->
           <div class="absolute inset-0 bg-gradient-to-tr from-transparent via-white/5 to-white/10 pointer-events-none"></div>
 
-          <!-- Premium KeyIn Icon Header -->
-          <img src="assets/KeyInLogo.png" alt="KeyIn Logo" class="h-16 w-auto mx-auto mb-6 drop-shadow-md object-contain">
-
-          <h3 class="text-2.5xl font-normal text-gray-900 dark:text-white mb-2 drop-shadow-sm tracking-tight" style="font-family: 'Odor Mean Chey', serif;">Welcome to <span class="bg-gradient-to-r from-yellow-500 via-amber-500 to-yellow-600 bg-clip-text text-transparent">KeyIn</span></h3>
-          <p class="text-gray-500 dark:text-gray-400 text-xs mb-8 font-semibold leading-relaxed">To keep your data and good experience, Please sign in.</p>
+          <!-- Premium Bermalam Icon Header -->
+          <img src="assets/LogoBermalam.png" alt="Bermalam Logo" class="h-16 w-auto mx-auto mb-6 drop-shadow-md object-contain">
+          
+          <h3 class="text-2.5xl font-normal text-white mb-2 drop-shadow-sm tracking-tight" style="font-family: 'Odor Mean Chey', serif;">Welcome to <span class="bg-gradient-to-r from-yellow-500 via-amber-500 to-yellow-600 bg-clip-text text-transparent">Bermalam</span></h3>
+          <p class="text-gray-300 text-xs mb-8 font-semibold leading-relaxed">To keep your data and good experience, Please sign in.</p>
 
           <!-- Authentication Options -->
           <div class="space-y-4 relative z-10">
