@@ -25,23 +25,6 @@ Aplikasi akan otomatis terbuka di browser di `http://localhost:4200`
 - **`ng build --watch`** atau **`npm run watch`** - Build dan watch untuk perubahan file
 - **`ng test`** atau **`npm test`** - Menjalankan unit tests
 
-## 📁 Struktur Project
-
-```
-frontend/
-├── src/
-│   ├── app/
-│   │   ├── app.component.ts    # Main component
-│   │   └── app.routes.ts       # Routing configuration
-│   ├── index.html              # HTML template
-│   ├── main.ts                 # Entry point aplikasi
-│   └── styles.css              # TailwindCSS styles
-├── angular.json                 # Angular CLI configuration
-├── package.json
-├── tsconfig.json               # TypeScript configuration
-└── tailwind.config.js          # TailwindCSS configuration
-```
-
 ## 🛠️ Teknologi
 
 - **Angular 18.0** - Framework modern untuk web applications
